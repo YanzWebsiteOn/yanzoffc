@@ -224,7 +224,7 @@ a:hover {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #110232;
+    background-color: transparant;
 }
 
 ::-webkit-scrollbar-thumb {
