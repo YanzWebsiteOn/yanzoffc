@@ -35,7 +35,7 @@ function appendTypingBubble() {
 
 async function fetchAIResponse(message, typingBubble) {
     try {
-        const response = await fetch(`https://api-yanzoffc.vercel.app/zhiziai?text=${encodeURIComponent(message)}`);
+        const response = await fetch(`https://restapi.yanzoffc.xyz/zhiziai?text=${encodeURIComponent(message)}`);
         const data = await response.json();
 
         // Setelah LenwyLD
