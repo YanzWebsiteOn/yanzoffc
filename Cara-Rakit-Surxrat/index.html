@@ -1,0 +1,34 @@
+<source src="https://files.catbox.moe/4e75ns.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung tag video.
+                </video>
+                <button class="download-btn" onclick="downloadVideo('video2', 'https://files.catbox.moe/4e75ns.mp4')">Unduh Video</button>
+            </div>
+
+            <!-- Video 3 -->
+            <div class="video-card">
+                <h2>Masalah seribu umat</h2>
+                <video id="video3" controls>
+                    <source src="https://files.catbox.moe/3pf6wh.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung tag video.
+                </video>
+                <button class="download-btn" onclick="downloadVideo('video3', 'https://files.catbox.moe/3pf6wh.mp4')">Unduh Video</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function downloadVideo(videoId, fileName) {
+            const video = document.getElementById(videoId);
+            const source = video.querySelector('source').src;
+
+            const a = document.createElement('a');
+            a.href = source;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    </script>
+
+</body>
+</html>
