@@ -1,8 +1,8 @@
 {
    "status": true
     "data": {
-         "ApiVreden": Aktif,
-         "ApiSpitzx": Maintence
-         "ApiZhizi": Aktif
+         "ApiVreden": "Aktif",
+         "ApiSpitzx": "Maintence",
+         "ApiZhizi": "Aktif"
     }
 }
