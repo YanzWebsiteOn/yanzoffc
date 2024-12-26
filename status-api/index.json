@@ -1,9 +1,9 @@
 {
-   "status": true,
-    "data": {
-         "ApiVreden": "Aktif",
-         "ApiSiputzx": "Maintence",
-         "ApiZhizi": "Aktif",
-         "ApiNeo": "Aktif"
-    }
+  "status": true,
+  "data": {
+    "ApiVreden": "Aktif",
+    "ApiSiputzx": "Aktif",
+    "ApiZhizi": "Aktif",
+    "ApiNeo": "Aktif"
+  }
 }
