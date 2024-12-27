@@ -1,9 +1,9 @@
 {
   "status": true,
   "data": {
-    "ApiVreden": "On",
-    "ApiSiputzx": "On",
-    "ApiZhizi": "On",
-    "ApiNeo": "On"
+    "ApiVreden": "aktif",
+    "ApiSiputzx": "aktif",
+    "ApiZhizi": "aktif",
+    "ApiNeo": "aktif"
   }
 }
